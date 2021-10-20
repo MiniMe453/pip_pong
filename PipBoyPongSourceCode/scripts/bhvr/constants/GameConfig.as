@@ -1,4 +1,4 @@
-package bhvr.constatnts
+package bhvr.constants
 {
    import bhvr.controller.StateController;
    

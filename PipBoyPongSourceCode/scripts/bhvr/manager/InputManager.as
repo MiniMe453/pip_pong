@@ -1,8 +1,8 @@
 package bhvr.manager
 {
    //import Shared.PlatformChangeEvent; Checks the platform the player is using and updates variables accordingly.
-   import bhvr.constatnts.GameConstants;
-   import bhvr.constatnts.GameInputs;
+   import bhvr.constants.GameConstants;
+   import bhvr.constants.GameInputs;
    import bhvr.debug.Log;
    import bhvr.events.EventWithParams;
    import flash.display.Stage;
@@ -14,7 +14,6 @@ package bhvr.manager
    {
       
       private static var _instance:InputManager;
-       
       
       private var _standaloneMode:Boolean;
       
